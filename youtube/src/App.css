@@ -1,0 +1,86 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.spinner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.video-table th, .video-table td {
+  text-align: left;
+  padding: 8px;
+  max-width: 150px; /* Limit the width */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.video-table th {
+  background-color: #f2f2f2;
+}
+
+.thumbnail {
+  width: 235px;
+  height: 90px;
+}
+
+.description {
+  max-width: 200px; /* Limit width of description column */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pagination {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+}
